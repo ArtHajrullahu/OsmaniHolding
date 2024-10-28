@@ -1,0 +1,122 @@
+body{
+    margin: 40px;
+    background-image: -webkit-linear-gradient(270deg, black, rgb(127, 228, 244));
+}
+
+.titulli{
+    color: rgb(255, 255, 255);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    letter-spacing: 5px;
+    font-weight: bold;
+    font-size: 30px;
+}
+.logo{
+    width: 120px;
+    height: 120px;
+    border-radius: 30px;
+}
+nav{
+    background-color: azure;
+    font-family: 'Times New Roman', Times, serif;
+}
+nav ul li{
+    text-decoration: none;
+    list-style-type: none;
+    color: black;
+    padding: 20px;
+    display: inline-block;
+}
+/*Pjesa e body*/
+.context{
+    display: inline-block;
+}
+.context-one{
+    display: flex; 
+    align-items: flex-end;
+
+}
+.contenxt-two{
+    display: flex; 
+    align-items: flex-end;
+}
+
+
+.rreth-one{
+    justify-content: flex-start;
+    text-align: left;
+}
+.rreth-two{
+    justify-content: flex-start;
+}
+
+
+
+.image1{
+    width: 40%;
+    height: 70%;
+    float: right;
+    border-radius: 10px;
+    padding-right: 30px;
+}
+.image2{
+    width: 40%;
+    height: 70%;
+    float: left;
+    border-radius: 10px;
+    padding-right: -30px;
+}
+.p3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    padding-top: 140px;
+    text-align: center;
+    margin: 40px;
+}
+/*Pjesa e footerit*/
+#n {
+	font-family: "Georgia";
+    font-size: 17px;
+	background-color: #000000;
+    color: white;
+    border-radius: 10px;
+    justify-content: space-between;
+}
+.a1 {
+    color: #3bafbe;
+}
+#p2 { 
+    float: left; 
+}
+
+#f{   
+    background: #ffffff;
+	border:0px;
+	margin-bottom: 40px;
+}
+#f::placeholder {
+    color:#989898;
+}
+#ss {
+    border-radius: 10px;
+   background: #3bafbe;
+   padding: 10px;
+   width: 70px;
+   height: 35px;
+   text-decoration: none;
+   color: rgb(0, 0, 0);
+   float: left;
+ }
+footer{
+    margin-top:40px;
+    margin-right: 40px;
+	height: 60px;
+	background-color: #111010;
+    color: #1a1a1a;
+	position: left;
+	height: 40px;
+}
+.footer1{
+    padding-left: 300px;
+}

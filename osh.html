@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Objekte shkollore</title>
+</head>
+<style>
+ body{
+        margin: 40px;
+    background-image: -webkit-linear-gradient(270deg, black, rgb(127, 228, 244));
+    padding: 40px;
+ }
+
+    nav{
+    background-color: azure;
+    font-family: 'Times New Roman', Times, serif;
+}
+nav ul li{
+    text-decoration: none;
+    list-style-type: none;
+    color: black;
+    padding: 20px;
+    display: inline-block;
+}
+.titulli{
+    color: rgb(0, 0, 0);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    letter-spacing: 5px;
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+}
+#slideshow-container {
+  width: 100%;
+  height: 600px;
+  position: relative;
+  overflow: hidden;
+}
+
+#slideshow-container img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+.p1{
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+}
+#slideshow-container1 {
+  width: 60%;
+  height: 600px;
+  position: relative;
+  overflow: hidden;
+}
+
+#slideshow-container1 img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+.p2{
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+}
+#n {
+	font-family: "Georgia";
+    font-size: 17px;
+	background-color: #000000;
+    color: white;
+    border-radius: 10px;
+    justify-content: space-between;
+}
+.a1 {
+    color: #3bafbe;
+}
+#p2 { 
+    float: left; 
+}
+
+#f{   
+    background: #ffffff;
+	border:0px;
+	margin-bottom: 40px;
+}
+#f::placeholder {
+    color:#989898;
+}
+#ss {
+    border-radius: 10px;
+   background: #3bafbe;
+   padding: 10px;
+   width: 70px;
+   height: 35px;
+   text-decoration: none;
+   color: rgb(0, 0, 0);
+   float: left;
+ }
+footer{
+    margin-top:40px;
+    margin-right: 40px;
+	height: 60px;
+	background-color: #111010;
+    color: #1a1a1a;
+	position: left;
+	height: 40px;
+}
+.footer1{
+    padding-left: 300px;
+}
+</style>
+<body>
+    <h1 class="titulli">Objekte Shkollore</h1>
+    <br>
+    <nav>
+        <ul>
+           <a href="ballina.html"><li>Ballina</li></a>
+            <a href="pp.html"><li>Projektet e perfunduar</li></a>
+            <a href="mv.html"><li>Lokacioni dhe rreth nesh</li></a>
+            <a href="kontakti.html"><li>Kontakti</li></a>
+        </ul>
+    </nav>
+    <br>
+    <br>
+    <div id="slideshow-container">
+        <img src="/Images/osh/image5.jpg">
+        <img src="/Images/osh/iamge6.jpg">
+        <img src="/Images/osh/image7.jpg">
+    </div>
+    <p class="p1">Puna e shkelqyer nga staffi yne</p>
+    <br>
+    <br>
+    <br>
+    <div id="slideshow-container">
+        <img src="/Images/osh/image1.jpg">
+        <img src="/Images/osh/image2.jpg">
+        <img src="/Images/osh/image3.jpg">
+    </div>
+    <p class="p2">Sherbime Profesionale nga Osmani Holding</p>
+    <br>
+    <br>
+    <section id="n">
+        <table border="0" class="footer1">
+            <thead>
+            <tr> <br>
+                <th>Kontakti</th>
+                <th>Menyja</th>
+                <th>Missioni yne</th>
+                <th>Per ma shum detaje rreth qmimit</th>
+            </tr> </thead>
+    
+            <tbody>
+            <tr>
+                <td>
+                    <p>Per me shume informacione<br>
+                        qofshin sygjerime apo ankesa, <br>
+                        na kontaktoni:<br>
+    
+                        <em>Phone:</em> <a href="tel: 044 613 882" id="a1">044 613 882</a><br/>
+                        <em>Email:</em> <a href="mailto:Projekti@gmail.com" id="a1">osmanintp@gmail.com</a>
+                    </p></td>
+                <td><a href="#" class="a1">Ballina</a>
+                <hr align="left" width="70%">
+                    <br> <a href="#" class="a1">
+                        Projektet e perfunduara</a><hr align="left" width="70%">
+                    <br> <a href="#" class="a1">
+                        Lokacioni dhe rreth nesh</a><hr align="left" width="70%">
+                    <br> <a href="#" class="a1">
+                        Kontakti</a><hr align="left" width="70%">
+                </td>
+    
+                <td>Missioni yne qe personi te ndihet<br>
+                   i rehatshem nga puna jone e shkelqyer
+                    </br></td>
+                <td>
+                    <form>
+                        <p id="p2">
+                            <input type="text" name="name" placeholder="Name" id="f"/> <br>
+                            <input type="text" name="Email" placeholder="Email" id="f"/>  <br>
+                            <br>
+                            <input id ="ss" type="SUBMIT" name="SUBMIT"  /></p>
+                    </form>
+    
+    
+                </td>
+            </tr>
+            </tbody>
+        </table>
+    
+    <hr>
+    <footer> Copyright &copy 2024 - All Rights Reserved</footer>
+    </section>    
+       
+      
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+  var images = document.querySelectorAll("#slideshow-container img");
+  var currentImageIndex = 0;
+
+  function showNextImage() {
+ 
+    images[currentImageIndex].style.opacity = 0;
+
+   
+    currentImageIndex = (currentImageIndex + 1) % images.length;
+
+   
+    images[currentImageIndex].style.opacity = 1;
+  }
+
+  setInterval(showNextImage, 1500);
+});
+document.addEventListener("DOMContentLoaded", function () {
+  var images = document.querySelectorAll("#slideshow-container1 img");
+  var currentImageIndex = 0;
+
+  function showNextImage() {
+ 
+    images[currentImageIndex].style.opacity = 0;
+
+   
+    currentImageIndex = (currentImageIndex + 1) % images.length;
+
+   
+    images[currentImageIndex].style.opacity = 1;
+  }
+
+  setInterval(showNextImage, 1500);
+});
+    </script>
+</body>
+</html>

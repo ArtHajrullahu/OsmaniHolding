@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontakti</title>
+</head>
+<style>
+        body{
+    margin: 40px;
+    background-image: -webkit-linear-gradient(270deg, black, rgb(127, 228, 244));
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.titulli{
+    color: rgb(255, 255, 255);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    letter-spacing: 5px;
+    font-weight: bold;
+    font-size: 30px;
+}
+form{
+    text-align: center;
+    border-radius: 5px;
+    margin: 10%;
+}
+input{
+  font-size: 15px;
+  border-radius: 10px;
+  height: 20px;
+}
+textarea{
+  font-size: 15px;
+  width: 240px;
+  height: 60px;
+}
+button{
+  font-size: 25px;
+  border-radius: 10px;
+}
+button:hover{
+  background-color: red;
+}
+</style>
+<body>
+    <h2 class="titulli">Kontakti</h2>
+    <br>
+    <form action="ballina.html">
+        <div class="form-group">
+            <label for="name">Name:</label>
+            <br>
+            <input type="text" id="name" name="name" required >
+          </div>
+          <br>
+          <br>
+          <div class="form-group">
+            <label for="email">Email:</label>
+            <br>
+            <input type="email" id="email" name="email">
+          </div>
+          <br>
+          <br>
+          <div class="form-group">
+            <label for="password">Password:</label>
+            <br>
+            <input type="password" id="password" name="password" required>
+          </div>
+          <br>
+          <br>
+          <div class="form-group">
+            <label for="">Vlersimi</label>
+            <br>
+            <textarea>
+                
+            </textarea>
+          </div>
+          <br>
+          <br>
+          <div class="form-group">
+            <button onclick="showAlert()">Submit</button>
+          </div>
+    </form>
+    <script>
+        function showAlert() {
+    alert("Faliminderit qe na kontaktuat");
+  }
+    </script>
+</body>
+</html>
